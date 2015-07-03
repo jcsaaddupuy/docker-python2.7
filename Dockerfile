@@ -1,4 +1,4 @@
-FROM jcsaaddupuy/wheezy
+FROM jcsaaddupuy/jessie
 
 RUN apt-get update -qq && apt-get upgrade -y -qq
 RUN apt-get install -y python2.7 python-pip
